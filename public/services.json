@@ -1,0 +1,32 @@
+[
+    {
+        "id":"01",
+        "service_name": "Cancer Oncology",
+        "description": "Cancer treatment calls for complete, customised care from our experienced oncologists working together with nurses, para-medical staff..."
+    },
+    {
+        "id":"02",
+        "service_name": "Dental Surgery",
+        "description": "Dental Clinics New York - Quick And Easily Found At Asksly! Many Products. Easy Access. Quick Results. Compare Products. Search and Discover..."
+    },
+    {
+        "id":"03",
+        "service_name": "Diagnose & Research",
+        "description": "Diagnosis is central to medical practice. ... Typically, diagnostic research focuses on estimating the sensitivity and specificity of individual diagnostic tests, their predictive values,..."
+    },
+    {
+        "id":"04",
+        "service_name": "Drug / Medicine",
+        "description": "A medication (also called medicament, medicine, pharmaceutical drug, medicinal drug or simply drug) is a drug used to diagnose, cure, treat, or prevent disease..."
+    },
+    {
+        "id":"05",
+        "service_name": "Endocrinology",
+        "description": "Endocrinology is the study of hormones. Hormones are essential for our every-day survival. They control our temperature, sleep, mood, stress, growth and more. An endocrinologist is a doctor..."
+    },
+    {
+        "id":"06",
+        "service_name": "Pregnancy & Births",
+        "description": "BMC Pregnancy & Childbirth is an open access, peer-reviewed journal that considers articles on all aspects of pregnancy and childbirth. The journal welcomes submissions on the..."
+    }
+]

@@ -1,0 +1,11 @@
+.doctors-portal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doctors-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+    margin:5px 60px;
+}
