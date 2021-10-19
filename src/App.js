@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home/Home';
 import News from './Pages/Home/News/News';
 import Services from './Pages/Home/Services/Services';
 import Login from './Pages/Login/Login/Login';
+import Register from './Pages/Login/Register/Register';
 import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
@@ -33,10 +34,13 @@ function App() {
               <ExpartsDoctors></ExpartsDoctors>
             </Route>
 
-            <Route className="/login">
+            <Route path="/login">
              <Login></Login>
             </Route>
-            <Route className="*">
+            <Route path="/register">
+           <Register></Register>
+            </Route>
+            <Route path="*">
               <NotFound></NotFound>
             </Route>
           </Switch>

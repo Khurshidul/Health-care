@@ -32,7 +32,11 @@ const Header = () => {
                                 <Button className="login" variant="outline-primary">Login</Button>
                             </Nav.Link>
                     }
-                    <Button className="register" variant="outline-primary">Register</Button>
+
+                    <Nav.Link as={Link} to="/register">
+                        <Button className="register" variant="outline-primary">Register</Button>
+
+                    </Nav.Link>
 
                 </div>
                 <div>
