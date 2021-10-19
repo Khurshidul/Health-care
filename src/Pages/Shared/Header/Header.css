@@ -32,16 +32,18 @@
     margin-top: 15px;
 
 }
-
+.logIn-logOut{
+    display: flex;
+    
+}
 
 .navbar-top{
      display: flex;
      justify-content:space-between;
      align-items: center;
     background-color: rgb(69, 69, 73);
-  
-     width:220vh;
+     width:100%;
 }
 .navbar-menu{
-    margin-right: 50px;
+    padding-right: 20px;
 }
