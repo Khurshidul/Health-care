@@ -1,11 +1,13 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './context/AuthProvider';
+import Booking from './Pages/Booking/Booking';
 import ExpartsDoctors from './Pages/Home/ExpartsDoctors/ExpartsDoctors';
 import Home from './Pages/Home/Home/Home';
 import News from './Pages/Home/News/News';
 import Services from './Pages/Home/Services/Services';
 import Login from './Pages/Login/Login/Login';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Register from './Pages/Login/Register/Register';
 import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
@@ -35,11 +37,14 @@ function App() {
             </Route>
 
             <Route path="/login">
-             <Login></Login>
+              <Login></Login>
             </Route>
             <Route path="/register">
-           <Register></Register>
+              <Register></Register>
             </Route>
+            <PrivateRoute path="/booking/:serviceId">
+              <Booking></Booking>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>

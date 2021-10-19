@@ -27,7 +27,7 @@ const News = () => {
 
             <div className="card-group">
                 <div className="card">
-                    <img src={news3} class="card-img-top" alt="..." />
+                    <img className="img-fluid" src={news3} class="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Maecenas faucibus sceisque</h5>
                         <p className="card-text">Femiration we are surrounded possession frequently them. Empilait acable heureuse capitale havresac nul etroites. Tours him route accable ecarter grand. Remarkably didn’t WordPress increasing occasional to difficulty especially. Known tiled he sorry joy balls. Bed sudden manner indeed now feebly.</p>
@@ -39,7 +39,7 @@ const News = () => {
             </div>
             <div className="card-group">
                 <div className="card">
-                    <img src={news2} class="card-img-top" alt="..." />
+                    <img className="img-fluid" src={news2} class="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Maecenas faucibus sceisque</h5>
                         <p className="card-text">We are surrounded possession frequently them. Empilait acable heureuse capitale havresac nul etroites. Tours him route accable ecarter grand. Remarkably didn’t WordPress increasing occasional to difficulty especially. Known tiled he sorry joy balls. Bed sudden manner indeed now feebly.</p>
