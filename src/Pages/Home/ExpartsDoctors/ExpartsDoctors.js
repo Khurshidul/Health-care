@@ -11,7 +11,7 @@ const ExpartsDoctors = () => {
     }, [])
     return (
         <div>
-            <h1>Our Exparts Doctors</h1>
+            <h1>Our expart doctors</h1>
             <div className="doctors-portal">
                 <div className="doctors-container">
                     {

@@ -5,6 +5,7 @@
     background-color: rgb(41, 39, 39);
     height: 300px;
 }
+
 .footer-title{
     color:rgb(172, 171, 171);
     margin: 20px 100px;
@@ -38,9 +39,15 @@ color:rgb(192, 0, 0);
     color: #000000;
 }
 .contact-item label input{
-    padding: 15px 0;
-    line-height: 15px;
+    padding: 8px 0;
+    line-height: 10px;
     border: none;
     border-radius:8px;
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(214, 212, 212);
+}
+@media only screen and (max-width: 688px) {
+    .footer{
+        display:block;
+    }
+    
 }

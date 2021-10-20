@@ -1,3 +1,11 @@
 .card{
     margin: 40px 40px;
 }
+.news-portal{
+    margin-top: 25px;
+}
+.news-header{
+    margin: auto;
+    border-bottom: 5px solid black;
+    width:500px;
+}

@@ -30,11 +30,11 @@ const Footer = () => {
             </div>
             <div className="contact-item">
                 <h1 className="text-primary">Sign Up for the newsletter</h1>
-                <label htmlFor="email">Email: 
-                <input type="email" name="email" placeholder="Email" id="" />
+                <label htmlFor="email">Email:   
+                <input type="email" name="email" placeholder="Enter your email" id="" />
                 </label>
                 <p><i class="fas fa-phone-square-alt"></i> <span className="text-light">:01851*****</span> </p>
-                <p><i class="fas fa-map-marked-alt"></i> <span className="text-white">: D.T Road, Hanimoon Tower, Pahartali, Chittagong.</span> </p>
+                <p><i class="fas fa-map-marked-alt"></i> <span className="text-white">: D.T Sagorika, Pahartali, Chittagong,Bangladesh</span> </p>
             </div>
         </div>
     );

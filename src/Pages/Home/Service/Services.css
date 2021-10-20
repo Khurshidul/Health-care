@@ -1,10 +1,14 @@
 .single-service{
     background-color: rgb(255, 255, 255);
-    height:400px;
+    width: 500px;
+    height:500px;
     padding: 10px;
-    padding-top: 50px;
     box-shadow: 5px 5px 5px 5px rgb(214, 212, 212);
     width:300px;
+}
+.single-service img{
+    width: 250px;
+    height: 250px;
 }
 .single-service:hover{
     transform:scale(1.02)

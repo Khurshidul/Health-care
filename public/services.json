@@ -1,32 +1,38 @@
 [
     {
         "id":"01",
+        "img":" https://i.ibb.co/FhvfLzs/service3.jpg",
         "service_name": "Cancer Oncology",
-        "description": "Cancer treatment calls for complete, customised care from our experienced oncologists working together with nurses, para-medical staff..."
+        "description": "Cancer treatment calls for complete, customised care from our ..."
     },
     {
         "id":"02",
+        "img":"https://i.ibb.co/xj67TRT/service2.jpg",
         "service_name": "Dental Surgery",
-        "description": "Dental Clinics New York - Quick And Easily Found At Asksly! Many Products. Easy Access. Quick Results. Compare Products. Search and Discover..."
+        "description": "Dental Clinics New York - Quick And Easily Found At Asksly! Many ..."
     },
     {
         "id":"03",
+        "img":"https://i.ibb.co/P60t7qS/service4.jpg",
         "service_name": "Diagnose & Research",
-        "description": "Diagnosis is central to medical practice. ... Typically, diagnostic research focuses on estimating the sensitivity and specificity of individual diagnostic tests, their predictive values,..."
+        "description": "Diagnosis is central to medical practice. ... Typically, diagnostic ..."
     },
     {
         "id":"04",
+        "img":"https://i.ibb.co/Fx5VMCq/service1.jpg",
         "service_name": "Drug / Medicine",
-        "description": "A medication (also called medicament, medicine, pharmaceutical drug, medicinal drug or simply drug) is a drug used to diagnose, cure, treat, or prevent disease..."
+        "description": "A medication (also called medicament, medicine, pharmaceutical drug,..."
     },
     {
         "id":"05",
+        "img":"https://i.ibb.co/fNTMMbv/service5.jpg",
         "service_name": "Endocrinology",
-        "description": "Endocrinology is the study of hormones. Hormones are essential for our every-day survival. They control our temperature, sleep, mood, stress, growth and more. An endocrinologist is a doctor..."
+        "description": "Endocrinology is the study of hormones. Hormones are essential ..."
     },
     {
         "id":"06",
+        "img":"https://i.ibb.co/RDkTBsM/service6.jpg",
         "service_name": "Pregnancy & Births",
-        "description": "BMC Pregnancy & Childbirth is an open access, peer-reviewed journal that considers articles on all aspects of pregnancy and childbirth. The journal welcomes submissions on the..."
+        "description": "BMC Pregnancy & Childbirth is an open access, peer-reviewed journal..."
     }
 ]

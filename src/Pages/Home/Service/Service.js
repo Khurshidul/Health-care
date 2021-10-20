@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Services.css'
 const Service = ({service}) => {
-    const {id,service_name, description} = service;
+    const {id,service_name,img, description} = service;
     return (
         <div className="single-service">
-            <h1><i class="fas fa-heartbeat"></i></h1>
+           <img src={img} alt="" />
             <br /><br />
             <h2>{service_name}</h2>
             <p>{description}</p>

@@ -6,8 +6,8 @@ import './News.css';
 const News = () => {
     return (
 
-        <div>
-            <h1 className="text-primary">News Portal</h1>
+        <div className="news-portal">
+            <h1 className="news-header text-primary">News Portal</h1>
             <div className="card mb-3">
                 <div className="row g-0">
                     <div className="col-md-4">

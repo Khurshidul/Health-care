@@ -6,10 +6,18 @@ import banner3 from '../../../images/banner/banner3.jfif';
 import banner4 from '../../../images/banner/banner4.jfif';
 import banner5 from '../../../images/banner/banner5.jfif';
 import banner6 from '../../../images/banner/banner6.jfif';
+import banner_bg from '../../../images/banner/banner-bg.jpg';
+
 import './Banner.css';
 const Banner = () => {
     return (
         <div>
+            <div className="banner-bg">
+              <h1 className="project-name"> <span className="text-danger">Sheba</span> <span>Health Care</span> </h1>
+              <img src={banner_bg} alt="" />
+            </div>
+            <hr className="hr-line" />
+            
             <>
                 <Carousel className="banner">
                     <Carousel.Item>
