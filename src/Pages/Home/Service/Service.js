@@ -10,7 +10,7 @@ const Service = ({service}) => {
             <h2>{service_name}</h2>
             <p>{description}</p>
             <Link to={`/booking/${id}`}>
-            <button className="btn btn-primary">Book Your Admission: {service_name}</button>
+            <button className="btn btn-primary">Book Now  <i className="far fa-arrow-alt-circle-right"></i></button>
             </Link>
         </div>
     );

@@ -7,9 +7,12 @@
     width:300px;
 }
 .single-service img{
-    width: 250px;
+    width: 300px;
     height: 250px;
 }
 .single-service:hover{
     transform:scale(1.02)
+}
+.fa-arrow-alt-circle-right{
+    font-size:25px;
 }

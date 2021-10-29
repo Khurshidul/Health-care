@@ -1,20 +1,17 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import banner1 from '../../../images/banner/banner1.jfif';
-import banner2 from '../../../images/banner/banner2.jpg';
-import banner3 from '../../../images/banner/banner3.jfif';
-import banner4 from '../../../images/banner/banner4.jfif';
-import banner5 from '../../../images/banner/banner5.jfif';
-import banner6 from '../../../images/banner/banner6.jfif';
-import banner_bg from '../../../images/banner/banner-bg.jpg';
+import banner1 from '../../../images/banner/banner-1.jpg';
+import banner2 from '../../../images/banner/banner-2.jpg';
+import banner3 from '../../../images/banner/banner-3.jpg';
+import banner4 from '../../../images/banner/banner-4.jpg';
+import banner_bg from '../../../images/banner/banner_bg.jpg';
 
 import './Banner.css';
 const Banner = () => {
     return (
         <div>
             <div className="banner-bg">
-              <h1 className="project-name"> <span className="text-danger">Sheba</span> <span>Health Care</span> </h1>
-              <img src={banner_bg} alt="" />
+              <h1 className="project-name"> <span className="text-danger">Happy</span> <span>Tour</span> </h1>
             </div>
             <hr className="hr-line" />
             
@@ -66,31 +63,7 @@ const Banner = () => {
                             <h3>Third slide label</h3>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                         </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={banner5}
-                            alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={banner6}
-                            alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
+                    </Carousel.Item>   
                 </Carousel>
             </>
         </div>

@@ -22,7 +22,7 @@ const Footer = () => {
                 <NavLink to = "/services">Services</NavLink>
                 <br />
                 <br />
-                <NavLink to = "/exparts">Exparts</NavLink>
+                <NavLink to = "/addService">Add Service</NavLink>
                 <br />
                 <br />
                 <NavLink to = "/news">News</NavLink>
