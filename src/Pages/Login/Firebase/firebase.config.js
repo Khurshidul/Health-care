@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCjg38rNPpRhfGJ7ZQC3QwSuDvv0hSz4fo",
-    authDomain: "sheba-health-care-ef942.firebaseapp.com",
-    projectId: "sheba-health-care-ef942",
-    storageBucket: "sheba-health-care-ef942.appspot.com",
-    messagingSenderId: "723001671794",
-    appId: "1:723001671794:web:0597149f74937db7dbc2eb"
-  };
-  export default firebaseConfig;
+  apiKey: "AIzaSyC1QWGqrmHY5bbSSigY2onq28rd2SrhqL8",
+  authDomain: "happy-tour-20c74.firebaseapp.com",
+  projectId: "happy-tour-20c74",
+  storageBucket: "happy-tour-20c74.appspot.com",
+  messagingSenderId: "132528396002",
+  appId: "1:132528396002:web:5fec80752f64c6425970bb"
+};
+export default firebaseConfig;

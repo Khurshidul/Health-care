@@ -1,0 +1,11 @@
+.manage-order div{
+    width: 500px;
+    border: 2px solid rgb(169, 169, 170);
+}
+.manage-order{
+    width: 75%;
+    margin-right: 1px;
+}
+.container{
+    display: flex;
+}

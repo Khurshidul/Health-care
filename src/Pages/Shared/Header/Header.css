@@ -55,3 +55,7 @@
     text-decoration: none;
     color: white;
 }
+.user-manageable{
+    display:flex;
+    flex-direction: column;
+}

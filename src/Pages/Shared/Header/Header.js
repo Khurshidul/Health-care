@@ -7,26 +7,17 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <div className="header">
-            <div className="container-fluid header-media-address">
-                <div className="header-address-media-part">
-                    <p><i className="fas fa-hospital"></i> <span className="D.T-Road">D.T Road</span> <span className="sagorika">Sagorika, Pahartali, <br /> </span> <span className="city">Chittagong, Bangladesh</span> </p>
-
-                    <p className="header-media">
-                        Follow Us:
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-youtube"></i>
-
-                    </p>
-                </div>
-            </div>
+           
 
 
             <div className="navbar-top">
                 <div className="logIn-logOut">
                     {
                         user?.email ?
+
                             <Button onClick={logOut} className="logout" variant="outline-primary">Logout</Button>
+
+
                             :
                             <Nav.Link as={Link} to="/login">
                                 <Button className="login" variant="outline-primary">Login</Button>
@@ -54,9 +45,18 @@ const Header = () => {
                                     <Nav.Link as={Link} to="/home#home">Home</Nav.Link>
                                     <Nav.Link as={Link} to="/services">Services</Nav.Link>
                                     <Nav.Link as={Link} to="/addService">Add Service</Nav.Link>
-                                    <Nav.Link as={Link} to="/manageService">Manage Service</Nav.Link>
+                                    <Nav.Link as={Link} to="/admin">Admin</Nav.Link>
                                     <Nav.Link as={Link} to="/news">News</Nav.Link>
-                                   
+
+                                    {
+                                        user.email ?
+                                            <Nav>
+                                                <Nav.Link as={Link} to="/myOrder">My Order</Nav.Link>
+                                            </Nav>
+                                            :
+                                            <div></div>
+                                    }
+
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>

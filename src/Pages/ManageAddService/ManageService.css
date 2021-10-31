@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
-.card{
+.add-service-card{
     width: 300px;
     height:400px;
 }

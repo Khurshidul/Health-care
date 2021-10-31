@@ -5,12 +5,12 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className = "footer-icon">
-                <h1 className="footer-title">Sheba Health Care</h1>
+                <h1 className="footer-title">Happy Tour</h1>
                 <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-instagram-square"></i>
                 <i class="fab fa-twitter-square"></i>
                 <i class="fab fa-whatsapp-square"></i>
-                <p>It's a place where from you can gain true knowledge. <br /> A true teacher like a true friends.</p>
+                <p>It's a visitor agency where from you can get many offers.<br /> Get visit for Happiness.</p>
                
                 
             </div>
@@ -22,7 +22,7 @@ const Footer = () => {
                 <NavLink to = "/services">Services</NavLink>
                 <br />
                 <br />
-                <NavLink to = "/addService">Add Service</NavLink>
+                <NavLink to = "/admin">Admin</NavLink>
                 <br />
                 <br />
                 <NavLink to = "/news">News</NavLink>

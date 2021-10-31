@@ -17,7 +17,8 @@ const ManageAddService = () => {
             .then(data => {
                 console.log(data);
                 if (data.deletedCount) {
-                    alert('Are you sure to delete this item?');
+                    alert('Are you sure to delete?');
+
                     const remainingServices = services.filter(service => service._id !== id);
                     setServices(remainingServices);
 
@@ -31,14 +32,14 @@ const ManageAddService = () => {
             {
                 services.map(service => <div key={service._id}>
 
-                    <div className="card">
+                    <div className="card add-service-card">
                         <img src={service.img} className="card-img-top" alt="..." />
-                        <div className ="card-body">
-                        <h5 className ="card-title">{service.name}</h5>
-                        <button className="btn btn-primary" onClick={() => handleDelete(service._id)}>Delete</button>
+                        <div className="card-body">
+                            <h5 className="card-title">{service.name}</h5>
+                            <button className="btn btn-primary" onClick={() => handleDelete(service._id)}>Delete</button>
                         </div>
                     </div>
-                    
+
                 </div>)
             }
         </div>
